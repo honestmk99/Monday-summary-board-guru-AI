@@ -1,0 +1,221 @@
+{
+    "data": {
+      "me": {
+        "name": "Yosi Navaro"
+      },
+      "boards": [
+        {
+          "name": "Roadmap 2020",
+          "columns": [
+            {
+              "title": "Name",
+              "id": "name",
+              "type": "name"
+            },
+            {
+              "title": "Opportunity/Problem",
+              "id": "text",
+              "type": "text"
+            },
+            {
+              "title": "Owner",
+              "id": "person",
+              "type": "multiple-person"
+            },
+            {
+              "title": "Impact",
+              "id": "status",
+              "type": "color"
+            },
+            {
+              "title": "Domain",
+              "id": "tags",
+              "type": "tag"
+            },
+            {
+              "title": "Scope Defined?",
+              "id": "status2",
+              "type": "color"
+            },
+            {
+              "title": "Tier",
+              "id": "dropdown",
+              "type": "dropdown"
+            },
+            {
+              "title": "Taskforce",
+              "id": "people",
+              "type": "multiple-person"
+            },
+            {
+              "title": "Timeline",
+              "id": "timeline",
+              "type": "timerange"
+            },
+            {
+              "title": "Initiative Status",
+              "id": "status9",
+              "type": "color"
+            },
+            {
+              "title": "Sprint Planning Board",
+              "id": "connect_boards",
+              "type": "board-relation"
+            },
+            {
+              "title": "Progress",
+              "id": "progress",
+              "type": "lookup"
+            }
+          ],
+          "groups": [
+            {
+              "title": "Q1 initiatives",
+              "id": "topics"
+            },
+            {
+              "title": "Q2 initiatives",
+              "id": "group_title"
+            },
+            {
+              "title": "Q3 initiatives",
+              "id": "new_group"
+            },
+            {
+              "title": "Q4 initiatives",
+              "id": "new_group29750"
+            }
+          ],
+          "items": [
+            {
+              "name": "Board automations v2",
+              "group": {
+                "id": "topics"
+              },
+              "column_values": [
+                {
+                  "id": "text",
+                  "value": "\"Upgrade existing automations for better UX\"",
+                  "text": "Upgrade existing automations for better UX"
+                },
+                {
+                  "id": "person",
+                  "value": null,
+                  "text": ""
+                },
+                {
+                  "id": "status",
+                  "value": "{\"index\":0,\"post_id\":null,\"changed_at\":\"2021-07-11T07:52:18.156Z\"}",
+                  "text": "High"
+                },
+                {
+                  "id": "tags",
+                  "value": "{\"tag_ids\":[4503704]}",
+                  "text": "automation"
+                },
+                {
+                  "id": "status2",
+                  "value": "{\"index\":0,\"post_id\":null,\"changed_at\":\"2021-07-11T07:53:27.351Z\"}",
+                  "text": "Working on it"
+                },
+                {
+                  "id": "dropdown",
+                  "value": "{\"ids\":[2],\"changed_at\":\"2021-07-11T07:54:00.909Z\"}",
+                  "text": "Enterprise"
+                },
+                {
+                  "id": "people",
+                  "value": null,
+                  "text": ""
+                },
+                {
+                  "id": "timeline",
+                  "value": "{\"to\":\"2021-08-20\",\"from\":\"2021-08-02\",\"changed_at\":\"2021-07-11T07:57:56.078Z\"}",
+                  "text": "2021-08-02 - 2021-08-20"
+                },
+                {
+                  "id": "status9",
+                  "value": "{\"index\":0,\"post_id\":null,\"changed_at\":\"2021-07-11T07:58:03.995Z\"}",
+                  "text": "Working on it"
+                },
+                {
+                  "id": "connect_boards",
+                  "value": "{\"linkedPulseIds\":[{\"linkedPulseId\":1215645287}]}",
+                  "text": "Building the app store infrastructure"
+                },
+                {
+                  "id": "progress",
+                  "value": null,
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "name": "Integrations with social media",
+              "group": {
+                "id": "topics"
+              },
+              "column_values": [
+                {
+                  "id": "text",
+                  "value": "\"Opportunity to add more functionalities for marketing users\"",
+                  "text": "Opportunity to add more functionalities for marketing users"
+                },
+                {
+                  "id": "person",
+                  "value": null,
+                  "text": ""
+                },
+                {
+                  "id": "status",
+                  "value": "{\"index\":16,\"post_id\":null,\"changed_at\":\"2021-07-11T07:57:27.639Z\"}",
+                  "text": "Medium"
+                },
+                {
+                  "id": "tags",
+                  "value": "{\"tag_ids\":[4503709]}",
+                  "text": "integrations"
+                },
+                {
+                  "id": "status2",
+                  "value": "{\"index\":1,\"post_id\":null,\"changed_at\":\"2021-07-11T07:57:37.029Z\"}",
+                  "text": "Yes"
+                },
+                {
+                  "id": "dropdown",
+                  "value": "{\"ids\":[3,2],\"changed_at\":\"2021-07-11T07:57:43.306Z\"}",
+                  "text": "Standard, Enterprise"
+                },
+                {
+                  "id": "people",
+                  "value": null,
+                  "text": ""
+                },
+                {
+                  "id": "timeline",
+                  "value": "{\"to\":\"2021-07-31\",\"from\":\"2021-07-11\",\"changed_at\":\"2021-07-11T07:57:50.628Z\"}",
+                  "text": "2021-07-11 - 2021-07-31"
+                },
+                {
+                  "id": "status9",
+                  "value": "{\"index\":1,\"post_id\":null,\"changed_at\":\"2021-07-11T07:58:06.057Z\"}",
+                  "text": "Done"
+                },
+                {
+                  "id": "connect_boards",
+                  "value": "{\"linkedPulseIds\":[{\"linkedPulseId\":1215645281},{\"linkedPulseId\":1215645294}]}",
+                  "text": "AB test templates, Work on template store infrastructure"
+                },
+                {
+                  "id": "progress",
+                  "value": null,
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "account_id": 17465221
+  }
